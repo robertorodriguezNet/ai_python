@@ -17,7 +17,7 @@ Hay que instalar Python con pip.
 - **Datos**
   - Utilizados para entrenar el modelo.
   - Hay que limpiar los datos antes de poder usarlos.
-  [Datos](/images/datos.png "Los datos deben ser consistentes")
+  ![Datos](/images/datos.png "Los datos deben ser consistentes")
   - Se debe definir las características relevantes para el modelo.
   - Con los datos limpios, se separan las características de las etiquetas para que el modelo pueda utilizarlos para enterenar.
   - Se separan los datos en un conjuto de **entrenamiento** (80% de los datos) y en otro de **pruebas** (20% de los datos).
