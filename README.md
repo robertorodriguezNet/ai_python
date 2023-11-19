@@ -23,9 +23,10 @@ Hay que instalar Python con pip.
 
 ### Tipos de Machine Learning (u03: Tipos de Machine Learning)
 
-- Aprendizaje supervisado.
+- **Aprendizaje supervisado.**
   - Hay un conjunto de datos con características.
   - Contamos con la etiqueta correcta para cada conjunto de datos.
+  - Usos: Clasificación de imágenes, diagnósticos médicos, reconocimiento de voz, ...
   - Ej.: Predicción del precio de casas.
     - Características: baños, cuartos, superficie, piscina, ...
     - Cada conjunto de características cuenta con una etiqueta, que es el precio.
@@ -37,8 +38,13 @@ Hay que instalar Python con pip.
 |   3    |      5        |     110     |    si    |  340.000 |
 |   1    |      3        |      40     |    no    |   90.000 |
 
-- Aprendizaje no supervisado.
-- Aprendizaje por refuerzo.
+- **Aprendizaje no supervisado.**
+  - Hay datos pero no etiquetas.
+  - El modelo busca patrones y relaciones.
+  - Ej.: Se cuenta con un gran número de clientes y a partir de ellos se crean *clústers* o grupos.
+  ![Grupos a partir de datos](/images/grupos.png "Grupos a partir de datos")
+  
+- **Aprendizaje por refuerzo.**
 
 ## Bibliotecas
 
@@ -46,5 +52,7 @@ Hay que instalar Python con pip.
 
 ## Términos
 
-- *Regresión:* Predecir un dato numérico continuo.
+- **Clasificación:** El modelo predice una categoría.
+  - *Ej*:  El modelo predice, en base a una categoría, si la foto de una mascota es un perro o es un gato.
+- **Regresión:** El modelo predice un dato numérico continuo.
   
