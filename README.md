@@ -14,11 +14,20 @@ Hay que instalar Python con pip.
 
 ## Machine Learning
 
-- Datos
+- **Datos**
   - Utilizados para entrenar el modelo.
-- Modelo
+  - Hay que limpiar los datos antes de poder usarlos.
+  [Datos](/images/datos.png "Los datos deben ser consistentes")
+  - Se debe definir las características relevantes para el modelo.
+  - Con los datos limpios, se separan las características de las etiquetas para que el modelo pueda utilizarlos para enterenar.
+  - Se separan los datos en un conjuto de **entrenamiento** (80% de los datos) y en otro de **pruebas** (20% de los datos).
+    - Entrenamiento: el modelo usa estos datos para ajustar su estructura interna y mejorar.
+    - Pruebas: se usa para evaluar al modelo y ver cómo quedó entrenado.
+  
+- **Modelo**
   - Utiliza los datos en el proceso de entrenamiento para optimizarse.
-- Predicción
+  
+- **Predicción**
   - Utiliza el modelo entrenado para predecir en datos nuevos.
 
 ### Tipos de Machine Learning (u03: Tipos de Machine Learning)
@@ -45,14 +54,19 @@ Hay que instalar Python con pip.
   ![Grupos a partir de datos](/images/grupos.png "Grupos a partir de datos")
   
 - **Aprendizaje por refuerzo.**
+  - Un agente aprende en un ambiente por medio de acciones y retroalimentación.
+  - A cada acción se le dice si fue correcto o incorrecto, dándole puntos numéricos.
+  - El agente buscará ajustarse para realizar acciones que le den más punto.
+  - Ej: Jugar al ajedrez.
 
 ## Bibliotecas
 
 - Pandas.
 
-## Términos
+## Glosario
 
 - **Clasificación:** El modelo predice una categoría.
   - *Ej*:  El modelo predice, en base a una categoría, si la foto de una mascota es un perro o es un gato.
+  
 - **Regresión:** El modelo predice un dato numérico continuo.
   
