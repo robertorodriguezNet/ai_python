@@ -79,6 +79,11 @@ Hay que instalar Python con pip.
   
 - **TensorFlow.**
   - Para Deep Learning y redes neuronales.
+
+- **seaborn**
+  - Muestra gráficas.
+    - Ver ejemplos:
+      - *u03_primeros_modelos\fahrenheit-celsius.ipynb*
   
 ## Glosario
 
