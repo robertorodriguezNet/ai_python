@@ -61,8 +61,25 @@ Hay que instalar Python con pip.
 
 ## Bibliotecas
 
-- Pandas.
+- **Pandas.**
+  - Código abierto.
+  - Permite visualizar, leer y analizar datos de forma sencilla.
+  - Ej. *u03_primeros_modelos/regresion_lineal/fahrenheit-celsius.ipynb*.
+    - Se usa para obtener los datos a partir de un fichero csv.
+      - `datos = pandas.read_csv("foo.csv");`
+  
+- **NumPy.**
+  - Permite trabajar con arrays de datos de múltiples dimensiones.
 
+- **Scikit-learnin.**
+  - Herramientas para modelos.
+
+- **MathPlotLib.**
+  - Crea gráficos y visualización de datos.
+  
+- **TensorFlow.**
+  - Para Deep Learning y redes neuronales.
+  
 ## Glosario
 
 - **Clasificación:** El modelo predice una categoría.
